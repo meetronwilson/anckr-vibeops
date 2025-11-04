@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-028",
+  "name": "Weather Provider",
+  "description": "Forecast and historical weather data with site-specific localization for course conditions.",
+  "moduleId": "MOD-006",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Application timing, work planning, and turf management all depend on accurate weather data. Site-specific forecasts and historical data enable informed decisions.",
+    "goals": ["Provide localized weather forecasts", "Track historical weather data", "Support multiple data points (temp, precip, wind, humidity)", "Enable weather-based triggers"],
+    "successMetrics": [{"metric": "Forecast accuracy", "target": "≥85%"}, {"metric": "Data refresh frequency", "target": "Every 15 minutes"}],
+    "scope": {
+      "inScope": ["Weather API integration", "Forecast data", "Historical data", "Site localization", "Multiple weather parameters"],
+      "outOfScope": ["On-site weather stations", "Hyperlocal predictions", "Climate modeling"]
+    },
+    "userStories": ["As a superintendent, I want accurate forecasts so that I can time applications correctly", "As a superintendent, I want historical data so that I can analyze trends"],
+    "dependencies": ["Weather API provider", "Location management", "Data storage"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "critical",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["integrations", "weather", "data", "turf-assistant-2.0"]}
+}

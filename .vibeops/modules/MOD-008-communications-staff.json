@@ -1,0 +1,22 @@
+{
+  "id": "MOD-008",
+  "name": "Communications & Staff Experience",
+  "description": "Staff communication system with crew messaging, daily digests, two-way SMS replies, and printable job board/recipe cards/run sheets.",
+  "type": "initiative",
+  "status": "planning",
+  "features": [
+    "FEAT-038-crew-messaging",
+    "FEAT-039-daily-digests",
+    "FEAT-040-two-way-replies",
+    "FEAT-041-printables"
+  ],
+  "owner": "Product Team",
+  "startDate": "2025-01-01",
+  "targetDate": "2025-12-31",
+  "metadata": {
+    "createdAt": "2025-01-04T00:00:00Z",
+    "updatedAt": "2025-01-04T00:00:00Z",
+    "createdBy": "system",
+    "tags": ["communications", "staff", "messaging", "turf-assistant-2.0"]
+  }
+}

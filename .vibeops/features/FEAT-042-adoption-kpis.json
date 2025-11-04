@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-042",
+  "name": "Adoption KPIs",
+  "description": "Track morning brief opens, acknowledgement times, and assistant vs manual action rates to measure user adoption.",
+  "moduleId": "MOD-009",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Understanding product adoption requires tracking how users engage with key features. Adoption KPIs reveal usage patterns and areas for improvement.",
+    "goals": ["Track morning brief open rates", "Measure acknowledgement response times", "Compare assistant vs manual actions", "Identify adoption trends"],
+    "successMetrics": [{"metric": "KPI dashboard load time", "target": "≤3 seconds"}, {"metric": "Data accuracy", "target": "99%"}],
+    "scope": {
+      "inScope": ["Brief open tracking", "Acknowledgement timing", "Assistant action ratio", "Usage trends", "Dashboard visualization"],
+      "outOfScope": ["Predictive analytics", "User behavior modeling", "Advanced segmentation"]
+    },
+    "userStories": ["As a product manager, I want adoption KPIs so that I can measure feature usage", "As an admin, I want to see acknowledgement times so that I can identify training needs"],
+    "dependencies": ["Analytics infrastructure", "Event tracking", "Dashboard system"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["analytics", "adoption", "kpis", "turf-assistant-2.0"]}
+}

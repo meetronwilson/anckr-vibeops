@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-044",
+  "name": "Ops KPIs",
+  "description": "Measure clicks per session, time to first value, and onboarding duration to optimize operational efficiency.",
+  "moduleId": "MOD-009",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Operational efficiency depends on system usability and onboarding effectiveness. Ops KPIs identify friction points and optimization opportunities.",
+    "goals": ["Track clicks per session", "Measure time to first value", "Monitor onboarding duration", "Identify usability issues"],
+    "successMetrics": [{"metric": "Average clicks per task", "target": "≤5"}, {"metric": "Time to first value", "target": "≤1 hour"}],
+    "scope": {
+      "inScope": ["Session analytics", "Onboarding metrics", "User flow tracking", "Efficiency metrics", "Dashboard visualization"],
+      "outOfScope": ["A/B testing infrastructure", "Heatmaps", "Session replay"]
+    },
+    "userStories": ["As a product manager, I want ops KPIs so that I can identify usability improvements", "As a UX designer, I want click tracking so that I can optimize user flows"],
+    "dependencies": ["Analytics infrastructure", "Event tracking", "Session management"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["analytics", "operations", "kpis", "usability", "turf-assistant-2.0"]}
+}

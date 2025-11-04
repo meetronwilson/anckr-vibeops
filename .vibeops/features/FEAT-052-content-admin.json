@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-052",
+  "name": "Content Admin",
+  "description": "Global content management for recipe templates, grass profiles, and shared agronomic data.",
+  "moduleId": "MOD-011",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Platform administrators need to manage global content like recipe templates and grass profiles that are shared across all tenants.",
+    "goals": ["Manage recipe templates", "Maintain grass profiles", "Update agronomic data", "Version control content", "Support content publishing"],
+    "successMetrics": [{"metric": "Content update frequency", "target": "Weekly"}, {"metric": "Content accuracy", "target": "99%"}],
+    "scope": {
+      "inScope": ["Recipe template management", "Grass profile editor", "Agronomic data updates", "Content versioning", "Publishing workflow"],
+      "outOfScope": ["User-generated content moderation", "Collaborative editing", "Translation management"]
+    },
+    "userStories": ["As a platform admin, I want to manage recipe templates so that all tenants have accurate application guides", "As a platform admin, I want to update grass profiles so that GDD calculations are accurate"],
+    "dependencies": ["Admin interface", "Content storage", "Version control system"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["admin", "content", "agronomy", "turf-assistant-2.0"]}
+}

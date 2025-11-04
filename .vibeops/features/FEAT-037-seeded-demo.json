@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-037",
+  "name": "Seeded Demo",
+  "description": "Instant sandbox environment with realistic demo data for sales demonstrations and booth presentations.",
+  "moduleId": "MOD-007",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Sales and booth demonstrations need realistic data without manual setup. A pre-seeded demo environment enables instant product showcases.",
+    "goals": ["Create instant demo environment", "Include realistic demo data", "Show all key features", "Enable reset to original state"],
+    "successMetrics": [{"metric": "Demo setup time", "target": "≤30 seconds"}, {"metric": "Sales team satisfaction", "target": "4.7/5.0"}],
+    "scope": {
+      "inScope": ["Demo data seeding", "Sample course", "Sample staff", "Sample applications", "Sample schedules", "Reset capability"],
+      "outOfScope": ["Custom demo scenarios", "Multi-language demos", "Interactive demos with branching"]
+    },
+    "userStories": ["As a sales rep, I want instant demo environments so that I can show the product immediately", "As a sales rep, I want realistic data so that prospects see real-world scenarios"],
+    "dependencies": ["Data seeder system", "All core modules", "Tenant isolation"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["onboarding", "demo", "sales", "sandbox", "turf-assistant-2.0"]}
+}

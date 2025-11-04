@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-024",
+  "name": "Vendors",
+  "description": "Vendor catalog with terms, contact information, and product price references.",
+  "moduleId": "MOD-005",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Managing vendor relationships and pricing requires centralized vendor information with terms, contacts, and product pricing.",
+    "goals": ["Maintain vendor directory", "Track payment terms", "Store contact information", "Reference product pricing"],
+    "successMetrics": [{"metric": "Vendor lookup time", "target": "≤15 seconds"}, {"metric": "Pricing accuracy", "target": "95%"}],
+    "scope": {
+      "inScope": ["Vendor directory", "Payment terms", "Contact management", "Product pricing", "Vendor notes"],
+      "outOfScope": ["Contract management", "Automated reordering", "Vendor performance scoring"]
+    },
+    "userStories": ["As a superintendent, I want vendor information centralized so that I can quickly reference contacts and terms", "As a superintendent, I want product pricing so that I can validate invoices"],
+    "dependencies": ["Products catalog", "Data management system"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["expenses", "vendors", "procurement", "turf-assistant-2.0"]}
+}

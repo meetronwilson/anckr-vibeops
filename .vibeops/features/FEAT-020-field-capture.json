@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-020",
+  "name": "Field Capture",
+  "description": "Mobile phone-based area tracing and quick map corrections while walking the course.",
+  "moduleId": "MOD-004",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Course features change over time and initial maps may have inaccuracies. Field capture enables superintendents to trace boundaries and make corrections on-site.",
+    "goals": ["Enable GPS-based area tracing", "Support quick boundary corrections", "Capture while walking", "Sync updates to main map"],
+    "successMetrics": [{"metric": "Field update adoption rate", "target": "70%"}, {"metric": "Map accuracy improvement", "target": "95%"}],
+    "scope": {
+      "inScope": ["GPS tracking for tracing", "Mobile interface", "Boundary capture", "Quick corrections", "Sync to main map"],
+      "outOfScope": ["Offline map editing", "High-precision surveying", "Automated feature detection"]
+    },
+    "userStories": ["As a superintendent, I want to trace areas while walking so that I can update my map accurately", "As a superintendent, I want to make quick corrections so that my map stays current"],
+    "dependencies": ["Mobile interface", "GPS capabilities", "GIS sync system", "Course mapping"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["mapping", "mobile", "gps", "field-work", "turf-assistant-2.0"]}
+}

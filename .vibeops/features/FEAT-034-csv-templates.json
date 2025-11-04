@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-034",
+  "name": "CSV Templates",
+  "description": "Ready-to-fill CSV templates for staff, areas, products, and vendors to accelerate data entry.",
+  "moduleId": "MOD-007",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Bulk data entry is faster with CSV import than manual entry. Pre-formatted templates with examples speed up the import process.",
+    "goals": ["Provide CSV templates for key entities", "Include example data", "Support bulk import", "Validate imported data"],
+    "successMetrics": [{"metric": "Template usage rate", "target": "70%"}, {"metric": "Import success rate", "target": "95%"}],
+    "scope": {
+      "inScope": ["Staff template", "Areas template", "Products template", "Vendors template", "Example data", "Import validation"],
+      "outOfScope": ["Excel templates", "Custom template builder", "Complex data transformations"]
+    },
+    "userStories": ["As a new user, I want CSV templates so that I can quickly import bulk data", "As a new user, I want example data so that I understand the expected format"],
+    "dependencies": ["CSV parser", "Data validation", "Entity management systems"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["onboarding", "csv", "templates", "import", "turf-assistant-2.0"]}
+}

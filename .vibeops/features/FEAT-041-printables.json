@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-041",
+  "name": "Printables",
+  "description": "Print-optimized formats for job boards, recipe cards, and run sheets for physical posting and field reference.",
+  "moduleId": "MOD-008",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Physical documentation remains important for crew rooms and field work. Print-optimized formats ensure clarity and usability in non-digital contexts.",
+    "goals": ["Create print-friendly job board", "Generate printable recipe cards", "Produce run sheets", "Optimize for readability", "Support standard paper sizes"],
+    "successMetrics": [{"metric": "Print feature usage rate", "target": "60%"}, {"metric": "Print quality satisfaction", "target": "4.5/5.0"}],
+    "scope": {
+      "inScope": ["Job board print format", "Recipe card print format", "Run sheet print format", "Print optimization", "PDF generation"],
+      "outOfScope": ["Custom print templates", "Multi-color printing", "Barcode generation"]
+    },
+    "userStories": ["As a superintendent, I want to print job boards so that crew can reference assignments in the crew room", "As a crew member, I want printed recipe cards so that I have clear instructions in the field"],
+    "dependencies": ["Job board", "Recipe cards", "PDF generation library", "Print optimization"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["communications", "printing", "documentation", "turf-assistant-2.0"]}
+}

@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-019",
+  "name": "Irrigation Layer",
+  "description": "Map irrigation infrastructure including heads, valves, and lines with toggle and edit capabilities.",
+  "moduleId": "MOD-004",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Understanding irrigation coverage requires visualizing heads, valves, and lines in relation to turf areas. Editable layers enable maintenance planning and troubleshooting.",
+    "goals": ["Map irrigation heads and coverage", "Define valve zones", "Visualize supply lines", "Enable layer editing"],
+    "successMetrics": [{"metric": "Irrigation planning efficiency", "target": "Improved by 60%"}, {"metric": "Coverage gap identification", "target": "100%"}],
+    "scope": {
+      "inScope": ["Head placement", "Valve mapping", "Line routing", "Coverage visualization", "Layer toggling", "Edit capabilities"],
+      "outOfScope": ["Water flow calculations", "Pressure modeling", "Automated scheduling integration"]
+    },
+    "userStories": ["As a superintendent, I want to map irrigation heads so that I can visualize coverage", "As a superintendent, I want to toggle irrigation layers so that I can focus on specific infrastructure"],
+    "dependencies": ["Course mapping", "GIS rendering engine", "Layer management system"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["mapping", "irrigation", "infrastructure", "turf-assistant-2.0"]}
+}

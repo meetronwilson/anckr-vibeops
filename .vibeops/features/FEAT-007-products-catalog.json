@@ -1,0 +1,39 @@
+{
+  "id": "FEAT-007",
+  "name": "Products Catalog",
+  "description": "Syngenta-first chemical and fertilizer library with application rates and specifications.",
+  "moduleId": "MOD-002",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Superintendents need quick access to accurate product information including rates, mixing instructions, and application guidelines to create proper application plans.",
+    "goals": [
+      "Provide comprehensive Syngenta product catalog",
+      "Include application rates and mixing instructions",
+      "Support custom product additions",
+      "Enable quick product search and filtering"
+    ],
+    "successMetrics": [
+      {"metric": "Product lookup time", "target": "≤30 seconds"},
+      {"metric": "Catalog completeness", "target": "100% Syngenta products"},
+      {"metric": "User satisfaction", "target": "4.5/5.0"}
+    ],
+    "scope": {
+      "inScope": ["Syngenta product library", "Application rates", "Mixing instructions", "Product search", "Custom product additions"],
+      "outOfScope": ["Real-time inventory", "Automated ordering", "Multi-vendor catalogs initially"]
+    },
+    "userStories": [
+      "As a superintendent, I want to search products quickly so that I can create application plans efficiently",
+      "As a superintendent, I want accurate rate information so that I apply products correctly"
+    ],
+    "dependencies": ["Product data import pipeline", "Search infrastructure"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {
+    "createdAt": "2025-01-04T00:00:00Z",
+    "updatedAt": "2025-01-04T00:00:00Z",
+    "createdBy": "system",
+    "tags": ["agronomy", "products", "catalog", "turf-assistant-2.0"]
+  }
+}

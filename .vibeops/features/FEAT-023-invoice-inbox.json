@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-023",
+  "name": "Invoice Inbox",
+  "description": "Automated parsing of invoices from CSV/XLS/email attachments into draft expense records.",
+  "moduleId": "MOD-005",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Manual invoice entry is time-consuming and error-prone. Automated parsing from common formats speeds up expense tracking.",
+    "goals": ["Parse CSV and Excel invoices", "Extract email attachments", "Create draft expense records", "Match to vendors and products"],
+    "successMetrics": [{"metric": "Invoice processing time", "target": "Reduced by 80%"}, {"metric": "Data extraction accuracy", "target": "95%"}],
+    "scope": {
+      "inScope": ["CSV parsing", "Excel parsing", "Email attachment extraction", "Vendor matching", "Product matching", "Draft creation"],
+      "outOfScope": ["OCR from paper invoices", "Complex multi-vendor consolidation", "Automated approval workflows"]
+    },
+    "userStories": ["As a superintendent, I want invoices parsed automatically so that I save time on data entry", "As a superintendent, I want vendor matching so that invoices are categorized correctly"],
+    "dependencies": ["File upload system", "Email integration", "Vendor management", "Products catalog"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["expenses", "invoices", "automation", "turf-assistant-2.0"]}
+}

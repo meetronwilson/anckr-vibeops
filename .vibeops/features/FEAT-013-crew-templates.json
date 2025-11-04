@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-013",
+  "name": "Crew & Templates",
+  "description": "Crew definitions, role assignments, and reusable task templates for efficient scheduling.",
+  "moduleId": "MOD-003",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Scheduling requires understanding crew composition, roles, and common task patterns. Reusable templates speed up recurring work assignments.",
+    "goals": ["Define crews with roles and skills", "Create reusable task templates", "Support template-based scheduling", "Track crew capabilities"],
+    "successMetrics": [{"metric": "Time to create daily schedule", "target": "Reduced by 60%"}, {"metric": "Template reuse rate", "target": "80%"}],
+    "scope": {
+      "inScope": ["Crew definitions", "Role management", "Task templates", "Skills tracking", "Template library"],
+      "outOfScope": ["Complex skill matrices", "Automated crew optimization", "Cross-facility crew sharing"]
+    },
+    "userStories": ["As a superintendent, I want to define crews so that I can assign work efficiently", "As a superintendent, I want task templates so that I can quickly create recurring assignments"],
+    "dependencies": ["Staff management system", "Task definition system"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["labor", "crew", "templates", "turf-assistant-2.0"]}
+}

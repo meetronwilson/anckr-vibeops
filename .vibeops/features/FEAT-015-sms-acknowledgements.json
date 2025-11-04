@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-015",
+  "name": "SMS Acknowledgements",
+  "description": "Simple START/STOP/DONE time and status updates via text message from crew members.",
+  "moduleId": "MOD-003",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Crew members need a frictionless way to update task status and time without requiring app login or complex interfaces.",
+    "goals": ["Enable SMS-based status updates", "Track START/STOP/DONE times", "Support simple command syntax", "Link updates to assignments"],
+    "successMetrics": [{"metric": "Status update compliance rate", "target": "95%"}, {"metric": "Time tracking accuracy", "target": "±5 minutes"}],
+    "scope": {
+      "inScope": ["SMS command parsing", "Status updates", "Time tracking", "Assignment linking", "Confirmation messages"],
+      "outOfScope": ["Complex multi-step workflows", "Photo attachments via SMS", "Group messaging"]
+    },
+    "userStories": ["As a crew member, I want to text START so that my time is tracked automatically", "As a superintendent, I want real-time status updates so that I know work progress"],
+    "dependencies": ["Twilio integration", "Assignment system", "Time tracking system"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["labor", "sms", "time-tracking", "turf-assistant-2.0"]}
+}

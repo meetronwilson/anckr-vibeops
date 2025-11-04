@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-054",
+  "name": "Data Seeder/Simulator",
+  "description": "Generate realistic weather, sensor, and application activity data for demos and testing.",
+  "moduleId": "MOD-011",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Demos and testing require realistic data that simulates real-world usage patterns. Manual data creation is time-consuming and often unrealistic.",
+    "goals": ["Generate weather simulation data", "Create sensor readings", "Simulate application activity", "Produce realistic patterns", "Support time-compressed scenarios"],
+    "successMetrics": [{"metric": "Data generation time", "target": "≤5 minutes for full scenario"}, {"metric": "Data realism score", "target": "4.5/5.0"}],
+    "scope": {
+      "inScope": ["Weather data generation", "Sensor reading simulation", "Application activity", "Labor activity", "Time-compressed scenarios"],
+      "outOfScope": ["Real-time simulation", "Complex environmental models", "User behavior simulation"]
+    },
+    "userStories": ["As a sales rep, I want generated demo data so that I can show realistic scenarios", "As a developer, I want test data so that I can validate features"],
+    "dependencies": ["Data models", "Seeding infrastructure", "Random data generators"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["admin", "testing", "demo", "data-generation", "turf-assistant-2.0"]}
+}

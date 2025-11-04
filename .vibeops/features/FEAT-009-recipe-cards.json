@@ -1,0 +1,39 @@
+{
+  "id": "FEAT-009",
+  "name": "Recipe Cards",
+  "description": "Auto-generated, printable application recipe cards saved to jobs for crew reference.",
+  "moduleId": "MOD-002",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Crew members need clear, printable instructions for chemical and fertilizer applications including products, rates, mixing, and safety information.",
+    "goals": [
+      "Auto-generate recipe cards from application plans",
+      "Provide printable format for field use",
+      "Include all necessary safety and mixing information",
+      "Save recipes to job records for compliance"
+    ],
+    "successMetrics": [
+      {"metric": "Recipe card generation time", "target": "≤5 seconds"},
+      {"metric": "Application errors due to unclear instructions", "target": "Reduced by 90%"},
+      {"metric": "Crew satisfaction with recipe clarity", "target": "4.5/5.0"}
+    ],
+    "scope": {
+      "inScope": ["Auto-generation from application plans", "Printable format", "Safety information", "Mixing instructions", "Job record attachment"],
+      "outOfScope": ["Real-time mobile updates", "Video instructions", "Multi-language support initially"]
+    },
+    "userStories": [
+      "As a crew member, I want clear recipe cards so that I apply products correctly",
+      "As a superintendent, I want recipes auto-generated so that I save time on documentation"
+    ],
+    "dependencies": ["Products catalog", "Application work orders", "Printing infrastructure"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {
+    "createdAt": "2025-01-04T00:00:00Z",
+    "updatedAt": "2025-01-04T00:00:00Z",
+    "createdBy": "system",
+    "tags": ["agronomy", "recipes", "documentation", "turf-assistant-2.0"]
+  }
+}

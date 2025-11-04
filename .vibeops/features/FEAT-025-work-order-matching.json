@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-025",
+  "name": "Work Order Matching",
+  "description": "Link purchase invoices to application and labor work orders for cost allocation.",
+  "moduleId": "MOD-005",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Understanding true costs requires linking purchases to the work orders where products and labor were used. Work order matching enables accurate cost allocation.",
+    "goals": ["Match invoices to work orders", "Allocate costs to applications", "Track labor-related expenses", "Enable cost analysis by job"],
+    "successMetrics": [{"metric": "Matching accuracy", "target": "90%"}, {"metric": "Unallocated expense percentage", "target": "≤10%"}],
+    "scope": {
+      "inScope": ["Invoice-to-work-order matching", "Cost allocation", "Product usage tracking", "Labor expense linking"],
+      "outOfScope": ["Automated matching algorithms", "Predictive cost estimation", "Advanced cost modeling"]
+    },
+    "userStories": ["As a superintendent, I want invoices matched to work orders so that I understand true job costs", "As a superintendent, I want cost allocation so that I can analyze spending by area or activity"],
+    "dependencies": ["Invoice system", "Application work orders", "Labor work orders", "Products catalog"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["expenses", "cost-allocation", "work-orders", "turf-assistant-2.0"]}
+}

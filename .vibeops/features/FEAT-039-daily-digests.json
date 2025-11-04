@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-039",
+  "name": "Daily Digests",
+  "description": "Morning brief for superintendents and optional end-of-day summary with configurable delivery preferences.",
+  "moduleId": "MOD-008",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Superintendents need consistent daily updates, while optional end-of-day summaries help track completion. Configurable digests support different workflow preferences.",
+    "goals": ["Send AM brief to superintendents", "Provide optional end-of-day summary", "Support email and SMS delivery", "Enable digest customization"],
+    "successMetrics": [{"metric": "Daily digest open rate", "target": "85%"}, {"metric": "User satisfaction with digest content", "target": "4.5/5.0"}],
+    "scope": {
+      "inScope": ["Morning brief delivery", "End-of-day summary", "Email delivery", "SMS delivery", "Customization preferences", "Delivery scheduling"],
+      "outOfScope": ["Real-time notifications", "Custom digest content builder", "Multi-day summaries"]
+    },
+    "userStories": ["As a superintendent, I want a morning digest so that I start my day informed", "As a superintendent, I want an end-of-day summary so that I can review accomplishments"],
+    "dependencies": ["Email integration", "SMS integration", "Morning brief feature", "Reporting system"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["communications", "digest", "email", "turf-assistant-2.0"]}
+}

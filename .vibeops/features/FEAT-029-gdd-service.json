@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-029",
+  "name": "GDD Service",
+  "description": "Growing Degree Day calculations and threshold tracking per grass type and area.",
+  "moduleId": "MOD-006",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Optimal application timing for many products depends on GDD accumulation, which varies by grass type and location. Automated GDD tracking ensures proper timing.",
+    "goals": ["Calculate GDD from weather data", "Track per grass type", "Monitor thresholds", "Generate alerts when thresholds are met"],
+    "successMetrics": [{"metric": "GDD calculation accuracy", "target": "99%"}, {"metric": "Threshold alert latency", "target": "≤1 hour"}],
+    "scope": {
+      "inScope": ["GDD calculation algorithms", "Grass type profiles", "Threshold management", "Alert generation", "Historical GDD tracking"],
+      "outOfScope": ["Custom GDD formulas", "Predictive GDD modeling", "Soil temperature integration"]
+    },
+    "userStories": ["As a superintendent, I want automatic GDD tracking so that I time applications at optimal GDD windows", "As a superintendent, I want grass-specific thresholds so that calculations are accurate for my turf"],
+    "dependencies": ["Weather provider", "Area management with grass types", "Alert system"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "critical",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["integrations", "gdd", "agronomy", "turf-assistant-2.0"]}
+}

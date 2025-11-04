@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-016",
+  "name": "Minimal Job Board",
+  "description": "Simple digital job board with printable wall view for crew visibility.",
+  "moduleId": "MOD-003",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Crews need clear visibility into daily assignments. A simple job board with print capability supports both digital and physical workflows.",
+    "goals": ["Provide clear daily assignment view", "Support printable wall display", "Show task details and priorities", "Enable status updates"],
+    "successMetrics": [{"metric": "Crew understanding of daily tasks", "target": "4.5/5.0"}, {"metric": "Print usage rate", "target": "60%"}],
+    "scope": {
+      "inScope": ["Daily job board view", "Printable format", "Task details", "Status indicators", "Priority marking"],
+      "outOfScope": ["Multi-day calendar view", "Drag-and-drop scheduling", "Mobile-optimized board"]
+    },
+    "userStories": ["As a crew member, I want to see my daily assignments so that I know what to do", "As a superintendent, I want to print the job board so that I can post it for the crew"],
+    "dependencies": ["Assignment system", "Printing infrastructure", "Task definitions"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["labor", "job-board", "visibility", "turf-assistant-2.0"]}
+}

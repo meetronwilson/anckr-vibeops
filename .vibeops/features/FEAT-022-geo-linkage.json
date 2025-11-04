@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-022",
+  "name": "Geo Linkage",
+  "description": "Link areas to applications and labor tasks for spatial tracking and analysis.",
+  "moduleId": "MOD-004",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Understanding what work was done where requires linking spatial data with applications and labor tasks. Geo linkage enables spatial analysis and compliance.",
+    "goals": ["Link areas to applications", "Connect areas to labor tasks", "Enable spatial queries", "Support compliance reporting"],
+    "successMetrics": [{"metric": "Data linkage accuracy", "target": "100%"}, {"metric": "Spatial query performance", "target": "≤2 seconds"}],
+    "scope": {
+      "inScope": ["Area-application linking", "Area-task linking", "Spatial queries", "Coverage analysis", "Historical tracking"],
+      "outOfScope": ["Predictive spatial analytics", "Heat mapping", "Advanced GIS analysis"]
+    },
+    "userStories": ["As a superintendent, I want areas linked to applications so that I can track what was applied where", "As a superintendent, I want spatial queries so that I can analyze work patterns by area"],
+    "dependencies": ["Course mapping", "Application system", "Labor system", "Database with spatial capabilities"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["mapping", "integration", "spatial", "turf-assistant-2.0"]}
+}

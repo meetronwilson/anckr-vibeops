@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-030",
+  "name": "Sensors Adapter",
+  "description": "Syngenta moisture and light sensors integration with pluggable architecture for future sensor types.",
+  "moduleId": "MOD-006",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Sensor data provides real-time insights into course conditions. Starting with Syngenta sensors and enabling future expansion supports data-driven turf management.",
+    "goals": ["Integrate Syngenta sensors", "Collect moisture and light data", "Design pluggable architecture", "Visualize sensor data"],
+    "successMetrics": [{"metric": "Data collection reliability", "target": "99%"}, {"metric": "Sensor reading frequency", "target": "Every 15 minutes"}],
+    "scope": {
+      "inScope": ["Syngenta sensor API integration", "Moisture data", "Light data", "Pluggable adapter architecture", "Data visualization"],
+      "outOfScope": ["Other sensor brands initially", "Real-time alerting", "Predictive analytics"]
+    },
+    "userStories": ["As a superintendent, I want sensor data integrated so that I can make data-driven irrigation decisions", "As a superintendent, I want moisture readings so that I can optimize water usage"],
+    "dependencies": ["Syngenta sensor API", "Data visualization system", "Time-series data storage"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["integrations", "sensors", "iot", "syngenta", "turf-assistant-2.0"]}
+}

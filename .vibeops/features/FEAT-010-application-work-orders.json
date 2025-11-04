@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-010",
+  "name": "Application Work Orders",
+  "description": "Task creation, crew assignments, and completion logging for application jobs.",
+  "moduleId": "MOD-002",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Application tasks need structured work orders with assignments, completion tracking, and compliance documentation.",
+    "goals": ["Create application work orders", "Assign to crew members", "Track completion status", "Log application details for compliance"],
+    "successMetrics": [{"metric": "Work order completion rate", "target": "98%"}, {"metric": "Compliance documentation accuracy", "target": "100%"}],
+    "scope": {
+      "inScope": ["Work order creation", "Crew assignment", "Completion logging", "Compliance data capture"],
+      "outOfScope": ["Equipment tracking", "Automated quality checks"]
+    },
+    "userStories": ["As a superintendent, I want to create work orders so that applications are properly documented", "As a crew member, I want to log completion so that my work is recorded"],
+    "dependencies": ["Crew management", "Products catalog", "Compliance ledger"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["agronomy", "work-orders", "turf-assistant-2.0"]}
+}

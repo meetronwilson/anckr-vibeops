@@ -1,0 +1,23 @@
+{
+  "id": "MOD-006",
+  "name": "Integrations",
+  "description": "External service integrations including weather provider, GDD service, Syngenta sensors, communication services (Twilio/SendGrid), Stripe billing, and file intake pipelines.",
+  "type": "initiative",
+  "status": "planning",
+  "features": [
+    "FEAT-028-weather-provider",
+    "FEAT-029-gdd-service",
+    "FEAT-030-sensors-adapter",
+    "FEAT-031-comms",
+    "FEAT-032-file-intake"
+  ],
+  "owner": "Product Team",
+  "startDate": "2025-01-01",
+  "targetDate": "2025-12-31",
+  "metadata": {
+    "createdAt": "2025-01-04T00:00:00Z",
+    "updatedAt": "2025-01-04T00:00:00Z",
+    "createdBy": "system",
+    "tags": ["integrations", "weather", "sensors", "communications", "turf-assistant-2.0"]
+  }
+}

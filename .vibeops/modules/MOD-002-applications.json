@@ -1,0 +1,24 @@
+{
+  "id": "MOD-002",
+  "name": "Applications (Agronomy)",
+  "description": "Comprehensive agronomy management with Syngenta-first product catalog, triggers engine, recipe cards, work orders, photo triage, and compliance ledger.",
+  "type": "initiative",
+  "status": "planning",
+  "features": [
+    "FEAT-007-products-catalog",
+    "FEAT-008-triggers-engine",
+    "FEAT-009-recipe-cards",
+    "FEAT-010-application-work-orders",
+    "FEAT-011-photo-triage",
+    "FEAT-012-compliance-ledger"
+  ],
+  "owner": "Product Team",
+  "startDate": "2025-01-01",
+  "targetDate": "2025-12-31",
+  "metadata": {
+    "createdAt": "2025-01-04T00:00:00Z",
+    "updatedAt": "2025-01-04T00:00:00Z",
+    "createdBy": "system",
+    "tags": ["agronomy", "applications", "turf-assistant-2.0"]
+  }
+}

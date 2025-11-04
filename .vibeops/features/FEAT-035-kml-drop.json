@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-035",
+  "name": "KML Drop",
+  "description": "Rapid course mapping by dropping KML files exported from Google Earth or other GIS tools.",
+  "moduleId": "MOD-007",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Manual area mapping is tedious. Many courses already have KML files from Google Earth. Drag-and-drop KML import enables rapid course digitization.",
+    "goals": ["Enable KML drag-and-drop", "Parse and validate KML", "Auto-create course areas", "Preview before import"],
+    "successMetrics": [{"metric": "Course mapping time", "target": "≤30 minutes"}, {"metric": "Import success rate", "target": "90%"}],
+    "scope": {
+      "inScope": ["Drag-and-drop interface", "KML parsing", "Area auto-creation", "Import preview", "Basic validation"],
+      "outOfScope": ["Advanced KML features", "Real-time collaboration", "Version control"]
+    },
+    "userStories": ["As a new user, I want to drop a KML file so that my course is mapped quickly", "As a new user, I want to preview the import so that I can verify accuracy"],
+    "dependencies": ["Course import system", "GIS library", "File upload infrastructure"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["onboarding", "mapping", "kml", "import", "turf-assistant-2.0"]}
+}

@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-021",
+  "name": "Layer Controls",
+  "description": "Toggle and stack different map layers including surfaces, irrigation, and applications.",
+  "moduleId": "MOD-004",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Managing complex course information requires viewing different data layers independently and in combination. Layer controls enable focused analysis.",
+    "goals": ["Toggle individual layers on/off", "Control layer stacking order", "Adjust layer opacity", "Save layer configurations"],
+    "successMetrics": [{"metric": "User satisfaction with layer management", "target": "4.5/5.0"}, {"metric": "Time to find information", "target": "Reduced by 50%"}],
+    "scope": {
+      "inScope": ["Layer visibility toggle", "Stacking order control", "Opacity adjustment", "Configuration presets"],
+      "outOfScope": ["Complex layer filtering", "Custom layer creation by users", "Real-time layer updates"]
+    },
+    "userStories": ["As a superintendent, I want to toggle layers so that I can focus on specific information", "As a superintendent, I want to adjust opacity so that I can see overlapping features"],
+    "dependencies": ["Course mapping", "GIS rendering engine", "UI framework"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["mapping", "ui", "layers", "turf-assistant-2.0"]}
+}

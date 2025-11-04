@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-031",
+  "name": "Comms",
+  "description": "Communication integrations for Twilio (SMS), SendGrid (email), and Stripe (billing).",
+  "moduleId": "MOD-006",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "The system needs to send SMS messages to crew, emails for notifications, and process payments. Integrated communication services enable these capabilities.",
+    "goals": ["Integrate Twilio for SMS", "Integrate SendGrid for email", "Integrate Stripe for billing", "Support reliable message delivery"],
+    "successMetrics": [{"metric": "Message delivery rate", "target": "99.5%"}, {"metric": "API reliability", "target": "99.9%"}],
+    "scope": {
+      "inScope": ["Twilio SMS integration", "SendGrid email integration", "Stripe billing integration", "Message queuing", "Delivery tracking"],
+      "outOfScope": ["Voice calls", "Advanced email campaigns", "Complex billing logic"]
+    },
+    "userStories": ["As a system, I want to send SMS so that crew receives timely updates", "As a system, I want to send emails so that users receive notifications"],
+    "dependencies": ["Twilio account", "SendGrid account", "Stripe account", "Message queue infrastructure"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["integrations", "communications", "sms", "email", "billing", "turf-assistant-2.0"]}
+}

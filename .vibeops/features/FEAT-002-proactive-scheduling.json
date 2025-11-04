@@ -1,0 +1,65 @@
+{
+  "id": "FEAT-002",
+  "name": "Proactive Scheduling",
+  "description": "AI-powered crew assignment proposals with 1-click accept/tweak functionality.",
+  "moduleId": "MOD-001",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Scheduling crew assignments is time-consuming and requires understanding of availability, skills, workload, and priorities. Superintendents need intelligent recommendations to speed up this process.",
+    "goals": [
+      "Automatically propose optimal crew assignments based on workload, skills, and availability",
+      "Enable 1-click acceptance of proposed schedules",
+      "Support quick tweaks and adjustments to proposals",
+      "Learn from user preferences and past decisions"
+    ],
+    "successMetrics": [
+      {
+        "metric": "Time to complete daily scheduling",
+        "target": "Reduced by 70%"
+      },
+      {
+        "metric": "Proposal acceptance rate",
+        "target": "80%"
+      },
+      {
+        "metric": "Scheduling errors",
+        "target": "Reduced by 60%"
+      }
+    ],
+    "scope": {
+      "inScope": [
+        "Crew assignment recommendations",
+        "Skills and availability matching",
+        "Workload balancing",
+        "1-click approval workflow",
+        "Quick adjustment interface",
+        "Learning from user decisions"
+      ],
+      "outOfScope": [
+        "Fully automated scheduling without approval",
+        "Long-term resource planning",
+        "Payroll integration"
+      ]
+    },
+    "userStories": [
+      "As a superintendent, I want the system to propose crew assignments so that I save time on scheduling",
+      "As a superintendent, I want to accept scheduling proposals with 1 click so that I can quickly approve good plans",
+      "As a superintendent, I want to easily tweak proposals so that I can make minor adjustments without starting over",
+      "As a superintendent, I want the system to learn my preferences so that proposals improve over time"
+    ],
+    "dependencies": [
+      "Crew and templates system must be implemented",
+      "Task library must be available",
+      "Availability tracking must be operational"
+    ]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {
+    "createdAt": "2025-01-04T00:00:00Z",
+    "updatedAt": "2025-01-04T00:00:00Z",
+    "createdBy": "system",
+    "tags": ["assistant", "scheduling", "ai", "turf-assistant-2.0"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-017",
+  "name": "Timesheet Export",
+  "description": "CSV export of time records for payroll processing with PTO hooks for future enhancement.",
+  "moduleId": "MOD-003",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Payroll processing requires time records in a format compatible with payroll systems. Export capability bridges VibeOps with existing payroll workflows.",
+    "goals": ["Export time records to CSV", "Include all payroll-required fields", "Support PTO tracking (future)", "Maintain export history"],
+    "successMetrics": [{"metric": "Export accuracy", "target": "100%"}, {"metric": "Payroll processing time", "target": "Reduced by 50%"}],
+    "scope": {
+      "inScope": ["CSV export format", "Time record aggregation", "Standard payroll fields", "Export scheduling", "PTO hooks for future"],
+      "outOfScope": ["Direct payroll system integration", "Tax calculations", "Benefits management"]
+    },
+    "userStories": ["As a payroll admin, I want CSV exports so that I can process payroll", "As a superintendent, I want scheduled exports so that payroll data is always ready"],
+    "dependencies": ["Time tracking system", "User management", "File export infrastructure"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["labor", "payroll", "export", "turf-assistant-2.0"]}
+}

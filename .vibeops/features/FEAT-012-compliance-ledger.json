@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-012",
+  "name": "Compliance Ledger",
+  "description": "Complete audit trail of who applied what products, when, and where for regulatory compliance.",
+  "moduleId": "MOD-002",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Regulatory compliance requires detailed records of all chemical and fertilizer applications including applicator, products, rates, timing, and location.",
+    "goals": ["Maintain complete application records", "Track applicator certifications", "Support regulatory reporting", "Enable compliance audits"],
+    "successMetrics": [{"metric": "Record completeness", "target": "100%"}, {"metric": "Audit pass rate", "target": "100%"}, {"metric": "Report generation time", "target": "≤5 minutes"}],
+    "scope": {
+      "inScope": ["Application logging", "Applicator tracking", "Product usage records", "Location data", "Compliance reports"],
+      "outOfScope": ["Multi-state regulatory variations", "Certification management", "Automated regulatory filing"]
+    },
+    "userStories": ["As a superintendent, I want complete application records so that I meet regulatory requirements", "As a compliance officer, I want audit trails so that I can verify proper procedures"],
+    "dependencies": ["Application work orders", "Products catalog", "Mapping system", "Crew management"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "critical",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["agronomy", "compliance", "audit", "turf-assistant-2.0"]}
+}

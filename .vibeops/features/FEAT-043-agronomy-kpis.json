@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-043",
+  "name": "Agronomy KPIs",
+  "description": "Track applications within optimal windows and re-treatment rates to measure agronomic effectiveness.",
+  "moduleId": "MOD-009",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Measuring agronomic success requires tracking application timing accuracy and treatment effectiveness. These KPIs demonstrate value to superintendents.",
+    "goals": ["Track applications within optimal windows", "Measure re-treatment rates", "Monitor trigger response times", "Analyze treatment effectiveness"],
+    "successMetrics": [{"metric": "Optimal window application rate", "target": "≥90%"}, {"metric": "Re-treatment rate", "target": "≤15%"}],
+    "scope": {
+      "inScope": ["Window compliance tracking", "Re-treatment analysis", "Trigger response metrics", "Treatment outcomes", "Dashboard visualization"],
+      "outOfScope": ["Predictive disease modeling", "Soil health analytics", "Advanced agronomic modeling"]
+    },
+    "userStories": ["As a superintendent, I want to see application window compliance so that I can measure timing accuracy", "As a superintendent, I want re-treatment rates so that I can evaluate product effectiveness"],
+    "dependencies": ["Application tracking", "Triggers engine", "Analytics infrastructure"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["analytics", "agronomy", "kpis", "turf-assistant-2.0"]}
+}

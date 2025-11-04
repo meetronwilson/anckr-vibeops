@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-053",
+  "name": "Partner Modes",
+  "description": "Syngenta demo configurations and ClubCorp presets for partner-specific deployments.",
+  "moduleId": "MOD-011",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Strategic partners like Syngenta and ClubCorp require customized configurations and branding. Partner modes enable rapid deployment of partner-specific instances.",
+    "goals": ["Support Syngenta demo config", "Enable ClubCorp presets", "Provide partner branding", "Configure partner defaults", "Support partner-specific features"],
+    "successMetrics": [{"metric": "Partner instance setup time", "target": "≤30 minutes"}, {"metric": "Partner satisfaction", "target": "4.7/5.0"}],
+    "scope": {
+      "inScope": ["Syngenta configuration", "ClubCorp presets", "Partner branding", "Feature toggles", "Default settings"],
+      "outOfScope": ["Custom development per partner", "Deep integration with partner systems", "Partner data synchronization"]
+    },
+    "userStories": ["As a partner manager, I want Syngenta demos so that I can showcase partner integration", "As a partner manager, I want ClubCorp presets so that rollout is streamlined"],
+    "dependencies": ["Feature flags", "Tenant admin", "Branding system", "Content admin"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["admin", "partners", "syngenta", "clubcorp", "turf-assistant-2.0"]}
+}

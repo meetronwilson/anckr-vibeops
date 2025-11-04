@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-036",
+  "name": "First-Run Assistant",
+  "description": "Interactive guide that helps new users enable key features like morning brief, labor templates, and triggers.",
+  "moduleId": "MOD-007",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "New users may not know which features to enable first. An interactive assistant guides them through enabling core capabilities for immediate value.",
+    "goals": ["Guide feature enablement", "Explain feature benefits", "Enable morning brief", "Set up labor templates", "Configure triggers", "Track progress"],
+    "successMetrics": [{"metric": "Feature activation rate", "target": "85%"}, {"metric": "Time to first value", "target": "≤1 hour"}],
+    "scope": {
+      "inScope": ["Interactive walkthrough", "Feature explanations", "Configuration assistance", "Progress tracking", "Skip options"],
+      "outOfScope": ["Video tutorials", "Live support chat", "Advanced configuration"]
+    },
+    "userStories": ["As a new user, I want guided setup so that I enable the most valuable features", "As a new user, I want to understand feature benefits so that I make informed choices"],
+    "dependencies": ["Assistant core", "Feature flag system", "User preferences"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["onboarding", "assistant", "guide", "turf-assistant-2.0"]}
+}

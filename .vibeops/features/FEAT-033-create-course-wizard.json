@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-033",
+  "name": "Create Course Wizard",
+  "description": "Guided setup wizard for organization creation, staff import, area definition, and product catalog initialization.",
+  "moduleId": "MOD-007",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "New users need to set up their course quickly without overwhelming complexity. A guided wizard streamlines the essential setup steps.",
+    "goals": ["Guide through organization setup", "Import staff from CSV", "Define course areas", "Initialize product catalog", "Complete setup in ≤2 hours"],
+    "successMetrics": [{"metric": "Setup completion time", "target": "≤2 hours"}, {"metric": "Setup completion rate", "target": "95%"}, {"metric": "User satisfaction with setup", "target": "4.5/5.0"}],
+    "scope": {
+      "inScope": ["Step-by-step wizard", "Org setup", "CSV staff import", "Area definition", "Product selection", "Progress tracking"],
+      "outOfScope": ["Advanced configuration", "Bulk multi-course setup", "Automated data migration"]
+    },
+    "userStories": ["As a new user, I want a setup wizard so that I can get started quickly", "As a new user, I want to import staff from CSV so that I don't have to enter each person manually"],
+    "dependencies": ["User management", "Area management", "Products catalog", "CSV parser"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "critical",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["onboarding", "wizard", "setup", "turf-assistant-2.0"]}
+}

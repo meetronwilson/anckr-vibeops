@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-011",
+  "name": "Photo Triage (Basic)",
+  "description": "Disease image intake with human confirmation leading to treatment recommendations.",
+  "moduleId": "MOD-002",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Identifying and responding to turf diseases requires photo documentation and expert analysis. A streamlined triage workflow can speed response times.",
+    "goals": ["Enable photo capture and upload", "Support human review and confirmation", "Generate treatment recommendations", "Track disease patterns over time"],
+    "successMetrics": [{"metric": "Photo to recommendation time", "target": "≤30 minutes"}, {"metric": "Treatment effectiveness rate", "target": "85%"}],
+    "scope": {
+      "inScope": ["Photo upload", "Human review workflow", "Treatment recommendations", "Basic pattern tracking"],
+      "outOfScope": ["Automated disease identification", "AI-powered diagnosis", "Microscopic analysis"]
+    },
+    "userStories": ["As a superintendent, I want to submit disease photos so that I can get treatment recommendations", "As an agronomist, I want to review photos so that I can confirm diagnosis"],
+    "dependencies": ["File upload system", "Products catalog", "Image storage"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "medium",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["agronomy", "disease", "photos", "turf-assistant-2.0"]}
+}

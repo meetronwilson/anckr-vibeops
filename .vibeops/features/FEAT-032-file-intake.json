@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-032",
+  "name": "File Intake",
+  "description": "Email and upload pipelines for document ingestion with secure storage.",
+  "moduleId": "MOD-006",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Users need to submit files like invoices, photos, and documents through multiple channels. Automated intake pipelines with secure storage streamline data ingestion.",
+    "goals": ["Accept email attachments", "Support direct uploads", "Parse common file formats", "Store securely", "Trigger processing workflows"],
+    "successMetrics": [{"metric": "File ingestion success rate", "target": "99%"}, {"metric": "Processing latency", "target": "≤2 minutes"}],
+    "scope": {
+      "inScope": ["Email attachment handling", "Web upload", "CSV/Excel/PDF/Image formats", "Secure storage", "Processing pipelines"],
+      "outOfScope": ["Complex file transformations", "Long-term archival", "Version control"]
+    },
+    "userStories": ["As a superintendent, I want to email invoices so that they're automatically imported", "As a superintendent, I want to upload files so that they're stored securely"],
+    "dependencies": ["Email integration", "File storage (S3 or similar)", "File processing infrastructure"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["integrations", "files", "storage", "automation", "turf-assistant-2.0"]}
+}

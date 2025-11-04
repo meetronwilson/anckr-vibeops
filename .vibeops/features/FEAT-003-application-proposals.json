@@ -1,0 +1,66 @@
+{
+  "id": "FEAT-003",
+  "name": "Application Proposals",
+  "description": "Prescriptive chemical and fertilizer application plans generated from weather and agronomic triggers.",
+  "moduleId": "MOD-001",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Timing chemical and fertilizer applications correctly requires monitoring weather, GDD, disease windows, and agronomic conditions. Superintendents need proactive recommendations based on these triggers.",
+    "goals": [
+      "Automatically propose applications when triggers are met",
+      "Generate prescriptive plans with product, rate, and timing details",
+      "Provide rationale for each recommendation",
+      "Enable easy approval or modification of proposals"
+    ],
+    "successMetrics": [
+      {
+        "metric": "Applications within optimal window",
+        "target": "95%"
+      },
+      {
+        "metric": "Missed application windows",
+        "target": "Reduced by 80%"
+      },
+      {
+        "metric": "Time to create application plan",
+        "target": "Reduced by 85%"
+      }
+    ],
+    "scope": {
+      "inScope": [
+        "Weather-based trigger monitoring",
+        "GDD threshold tracking",
+        "Disease window identification",
+        "Product and rate recommendations",
+        "Application timing optimization",
+        "Rationale and context for proposals"
+      ],
+      "outOfScope": [
+        "Fully automated application execution",
+        "Product ordering/procurement",
+        "Custom product formulations"
+      ]
+    },
+    "userStories": [
+      "As a superintendent, I want application proposals based on triggers so that I don't miss optimal windows",
+      "As a superintendent, I want to see the rationale for each proposal so that I understand why it's recommended",
+      "As a superintendent, I want prescriptive product and rate details so that I don't have to look them up",
+      "As a superintendent, I want to approve or modify proposals easily so that I maintain control over applications"
+    ],
+    "dependencies": [
+      "Triggers engine must be operational",
+      "Products catalog must be available",
+      "Weather integration must be connected",
+      "GDD service must be implemented"
+    ]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {
+    "createdAt": "2025-01-04T00:00:00Z",
+    "updatedAt": "2025-01-04T00:00:00Z",
+    "createdBy": "system",
+    "tags": ["assistant", "applications", "agronomy", "turf-assistant-2.0"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-046",
+  "name": "Auth & RBAC",
+  "description": "Authentication and role-based access control with Owner/Super/CrewLead/Crew roles and SMS magic codes for crew members.",
+  "moduleId": "MOD-010",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Secure access control requires proper authentication and role-based permissions. SMS magic codes enable frictionless crew access without passwords.",
+    "goals": ["Implement secure authentication", "Define role hierarchy", "Enable SMS magic codes", "Support permission management", "Maintain security standards"],
+    "successMetrics": [{"metric": "Authentication security score", "target": "A+ rating"}, {"metric": "Crew login success rate via SMS", "target": "95%"}],
+    "scope": {
+      "inScope": ["User authentication", "Role definitions", "Permission system", "SMS magic codes", "Session management", "MFA support"],
+      "outOfScope": ["SSO integration initially", "Biometric auth", "Complex permission inheritance"]
+    },
+    "userStories": ["As an owner, I want role-based access so that I can control who sees what", "As a crew member, I want SMS login so that I can access the system without remembering passwords"],
+    "dependencies": ["User management", "SMS integration", "Session infrastructure", "MakerKit auth system"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "critical",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["platform", "security", "auth", "rbac", "turf-assistant-2.0"]}
+}

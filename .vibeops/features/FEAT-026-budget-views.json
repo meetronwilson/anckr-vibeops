@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-026",
+  "name": "Budget Views",
+  "description": "Plan vs actual budget comparison by area, course, and time period with variance tracking.",
+  "moduleId": "MOD-005",
+  "status": "draft",
+  "prd": {
+    "problemStatement": "Staying within budget requires understanding plan vs actual spending across different dimensions like area, time, and category.",
+    "goals": ["Compare plan vs actual spending", "Break down by area and course", "Track variance over time", "Enable budget forecasting"],
+    "successMetrics": [{"metric": "Budget awareness", "target": "4.5/5.0"}, {"metric": "Variance identification time", "target": "≤5 minutes"}],
+    "scope": {
+      "inScope": ["Plan vs actual views", "Area breakdowns", "Time period analysis", "Variance calculation", "Forecast projections"],
+      "outOfScope": ["Complex budget modeling", "Multi-year planning", "Scenario analysis"]
+    },
+    "userStories": ["As a superintendent, I want plan vs actual views so that I can stay within budget", "As a superintendent, I want area breakdowns so that I can identify cost hotspots"],
+    "dependencies": ["Expense tracking", "Budget planning system", "Area management", "Reporting infrastructure"]
+  },
+  "issues": [],
+  "owner": "Product Manager",
+  "priority": "high",
+  "metadata": {"createdAt": "2025-01-04T00:00:00Z", "updatedAt": "2025-01-04T00:00:00Z", "createdBy": "system", "tags": ["expenses", "budget", "reporting", "turf-assistant-2.0"]}
+}

@@ -1,0 +1,23 @@
+{
+  "id": "MOD-010",
+  "name": "Platform & Security (MakerKit Base)",
+  "description": "Core platform features including auth & RBAC, RLS & tenancy, audit logging, feature flags, and observability built on MakerKit foundation.",
+  "type": "initiative",
+  "status": "planning",
+  "features": [
+    "FEAT-046-auth-rbac",
+    "FEAT-047-rls-tenancy",
+    "FEAT-048-audit-logging",
+    "FEAT-049-feature-flags",
+    "FEAT-050-observability"
+  ],
+  "owner": "Product Team",
+  "startDate": "2025-01-01",
+  "targetDate": "2025-12-31",
+  "metadata": {
+    "createdAt": "2025-01-04T00:00:00Z",
+    "updatedAt": "2025-01-04T00:00:00Z",
+    "createdBy": "system",
+    "tags": ["platform", "security", "infrastructure", "turf-assistant-2.0"]
+  }
+}
