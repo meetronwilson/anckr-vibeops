@@ -1,0 +1,64 @@
+{
+  "id": "FEAT-0060",
+  "name": "PTO & Leave Management",
+  "description": "PTO and leave management system with accrual tracking and approvals",
+  "moduleId": "MOD-0012",
+  "priority": "high",
+  "status": "draft",
+  "issues": [],
+  "prd": {
+    "problem": "Managing worker time off requests, tracking PTO balances, and planning crew schedules around absences is currently manual, leading to scheduling conflicts, incorrect PTO balances, and disputes over available time off.",
+    "solution": "Implement a comprehensive PTO management system with configurable accrual rules, leave type definitions (vacation, sick, personal, etc.), request/approval workflows, balance tracking, and integration with crew scheduling to prevent understaffing.",
+    "targetUsers": [
+      "Golf Course Superintendents",
+      "Crew Leaders",
+      "HR Managers",
+      "Workers/Crew Members"
+    ],
+    "successCriteria": [
+      "Workers can view their PTO balances in real-time",
+      "Self-service PTO request submission",
+      "Approval workflow with notifications",
+      "Flexible accrual rules (per pay period, annual, etc.)",
+      "Multiple leave types with separate balances",
+      "Calendar view of team absences",
+      "Alerts when PTO request would cause understaffing",
+      "Historical leave tracking and reporting"
+    ],
+    "assumptions": [
+      "PTO policies are documented",
+      "Approval hierarchy is defined",
+      "Workers have access to submit requests"
+    ],
+    "dependencies": [
+      "Worker profiles",
+      "Notification system",
+      "Calendar system",
+      "Crew scheduling module",
+      "Approval workflow engine"
+    ],
+    "outOfScope": [
+      "FMLA and other regulated leave tracking",
+      "Integration with payroll for PTO payout",
+      "Shift swap/coverage management"
+    ],
+    "risks": [
+      "Complex accrual rules may be difficult to configure",
+      "Ensuring fair and consistent PTO approval",
+      "Preventing scheduling gaps due to multiple concurrent absences"
+    ]
+  },
+  "owner": "Product Team",
+  "metadata": {
+    "createdAt": "2025-11-04T23:55:49.703Z",
+    "updatedAt": "2025-11-05T00:10:04.091Z",
+    "createdBy": "claude-code",
+    "tags": [
+      "labor",
+      "pto",
+      "leave",
+      "hr",
+      "scheduling"
+    ]
+  }
+}

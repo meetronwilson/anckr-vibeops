@@ -1,0 +1,64 @@
+{
+  "id": "FEAT-0061",
+  "name": "Worker Communication Hub",
+  "description": "Worker communication hub for announcements, messages, and notifications",
+  "moduleId": "MOD-0012",
+  "priority": "medium",
+  "status": "draft",
+  "issues": [],
+  "prd": {
+    "problem": "Communication with individual workers about schedules, policies, performance, and administrative matters happens across multiple channels (text, email, in-person) with no centralized record, making it difficult to track what was communicated and when.",
+    "solution": "Create a worker-specific communication hub where superintendents and managers can send messages, share documents, post announcements, and require acknowledgment of important information. All communications are logged and searchable for reference.",
+    "targetUsers": [
+      "Golf Course Superintendents",
+      "Crew Leaders",
+      "HR Managers",
+      "Workers/Crew Members"
+    ],
+    "successCriteria": [
+      "Send direct messages to individual workers",
+      "Share documents with specific workers or groups",
+      "Post announcements with read receipts",
+      "Require acknowledgment for policy updates",
+      "Complete communication history per worker",
+      "Search across communications",
+      "Mobile-friendly for workers to access",
+      "Email/SMS notifications for new messages"
+    ],
+    "assumptions": [
+      "Workers have mobile access or can access system",
+      "Email/phone numbers are current",
+      "Basic notification infrastructure exists"
+    ],
+    "dependencies": [
+      "Worker profiles",
+      "Notification system",
+      "Document storage",
+      "Mobile app or responsive web interface"
+    ],
+    "outOfScope": [
+      "Team chat/group messaging",
+      "Video calling",
+      "Integration with personal email/SMS apps",
+      "Translation services"
+    ],
+    "risks": [
+      "Workers may not check messages regularly",
+      "Notification fatigue",
+      "Privacy concerns with message content",
+      "Ensuring professional communication standards"
+    ]
+  },
+  "owner": "Product Team",
+  "metadata": {
+    "createdAt": "2025-11-04T23:55:49.974Z",
+    "updatedAt": "2025-11-05T00:10:04.160Z",
+    "createdBy": "claude-code",
+    "tags": [
+      "labor",
+      "communication",
+      "messaging",
+      "hr"
+    ]
+  }
+}

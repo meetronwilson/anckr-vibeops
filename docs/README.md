@@ -2,7 +2,7 @@
 
 This documentation is auto-generated from Product OS contracts.
 
-## 📦 Modules (11)
+## 📦 Modules (12)
 
 - **[MOD-001](modules/MOD-001.md)** - Assistant Core (Open-First Brain)
   - Status: planning
@@ -48,7 +48,11 @@ This documentation is auto-generated from Product OS contracts.
   - Status: planning
   - Administrative and partner operations including tenant admin, content admin for global templates, pa...
 
-## 📋 Features (54)
+- **[MOD-0012](modules/MOD-0012.md)** - Worker & Workforce Management
+  - Status: planning
+  - Comprehensive worker management system covering profiles, skills and training, certifications, compe...
+
+## 📋 Features (63)
 
 - **[FEAT-001](features/FEAT-001.md)** - Morning Brief
   - Module: MOD-001 | Status: draft | Priority: high
@@ -212,6 +216,33 @@ This documentation is auto-generated from Product OS contracts.
 - **[FEAT-054](features/FEAT-054.md)** - Data Seeder/Simulator
   - Module: MOD-011 | Status: draft | Priority: medium
 
+- **[FEAT-0055](features/FEAT-0055.md)** - Course Area Task Management
+  - Module: MOD-0012 | Status: draft | Priority: high
+
+- **[FEAT-0056](features/FEAT-0056.md)** - Task Recurrence & Scheduling Rules
+  - Module: MOD-0012 | Status: draft | Priority: critical
+
+- **[FEAT-0057](features/FEAT-0057.md)** - Worker Profile Management
+  - Module: MOD-0012 | Status: draft | Priority: high
+
+- **[FEAT-0058](features/FEAT-0058.md)** - Worker Skills & Training Management
+  - Module: MOD-0012 | Status: draft | Priority: high
+
+- **[FEAT-0059](features/FEAT-0059.md)** - Compensation & Salary Management
+  - Module: MOD-0012 | Status: draft | Priority: medium
+
+- **[FEAT-0060](features/FEAT-0060.md)** - PTO & Leave Management
+  - Module: MOD-0012 | Status: draft | Priority: high
+
+- **[FEAT-0061](features/FEAT-0061.md)** - Worker Communication Hub
+  - Module: MOD-0012 | Status: draft | Priority: medium
+
+- **[FEAT-0062](features/FEAT-0062.md)** - Worker Schedule Management
+  - Module: MOD-0012 | Status: draft | Priority: critical
+
+- **[FEAT-0063](features/FEAT-0063.md)** - Payroll Integration & Time Export
+  - Module: MOD-0012 | Status: draft | Priority: medium
+
 ## 📝 Issues (0)
 
 ### By Type
@@ -223,4 +254,4 @@ This documentation is auto-generated from Product OS contracts.
 _No issues yet_
 
 ---
-_Generated: 2025-11-04T23:43:30.083Z_
+_Generated: 2025-11-05T00:47:00.000Z_

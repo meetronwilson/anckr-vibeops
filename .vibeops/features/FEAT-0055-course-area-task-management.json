@@ -1,0 +1,55 @@
+{
+  "id": "FEAT-0055",
+  "name": "Course Area Task Management",
+  "description": "Task planning and management system for courses and areas with flexible categorization",
+  "moduleId": "MOD-0012",
+  "priority": "high",
+  "status": "draft",
+  "issues": [],
+  "prd": {
+    "problem": "Course maintenance tasks need to be organized by specific areas of the course, but there's no structured way to define, categorize, and manage these area-specific tasks with their requirements and characteristics.",
+    "solution": "Build a comprehensive task management system that allows creation of tasks tied to specific course areas, with details on what needs to be done, equipment needed, skill requirements, and estimated completion time.",
+    "targetUsers": [
+      "Golf Course Superintendents",
+      "Assistant Superintendents",
+      "Crew Leaders"
+    ],
+    "successCriteria": [
+      "Tasks can be created and assigned to specific course areas",
+      "Task definitions include equipment, skills, and time estimates",
+      "Tasks can be filtered and viewed by area",
+      "Task library can be reused across scheduling periods"
+    ],
+    "assumptions": [
+      "Course areas are already defined in the system",
+      "Equipment catalog exists",
+      "Skill taxonomy is established"
+    ],
+    "dependencies": [
+      "Course mapping system",
+      "Equipment management",
+      "Skill definitions"
+    ],
+    "outOfScope": [
+      "Actual scheduling of tasks",
+      "Task assignment to workers",
+      "Historical task completion tracking"
+    ],
+    "risks": [
+      "Task definitions may become outdated",
+      "Equipment requirements may change seasonally"
+    ]
+  },
+  "owner": "Product Team",
+  "metadata": {
+    "createdAt": "2025-11-04T23:55:48.461Z",
+    "updatedAt": "2025-11-05T00:10:03.791Z",
+    "createdBy": "claude-code",
+    "tags": [
+      "labor",
+      "tasks",
+      "course-areas",
+      "maintenance"
+    ]
+  }
+}

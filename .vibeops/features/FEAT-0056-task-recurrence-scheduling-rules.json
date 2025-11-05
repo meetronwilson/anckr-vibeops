@@ -1,0 +1,59 @@
+{
+  "id": "FEAT-0056",
+  "name": "Task Recurrence & Scheduling Rules",
+  "description": "Flexible scheduling system with recurrence patterns and rules for task automation",
+  "moduleId": "MOD-0012",
+  "priority": "critical",
+  "status": "draft",
+  "issues": [],
+  "prd": {
+    "problem": "Course maintenance tasks occur on various schedules - some daily, some on specific days of the week, some monthly or seasonally. Without a flexible recurrence system, superintendents must manually recreate tasks repeatedly, leading to missed maintenance windows and scheduling inconsistencies.",
+    "solution": "Implement a comprehensive recurrence engine that supports multiple pattern types (daily, weekly with day selection, bi-weekly, monthly, quarterly, seasonal, annual) with the ability to set preferences, handle exceptions, and adjust for weather or course conditions.",
+    "targetUsers": [
+      "Golf Course Superintendents",
+      "Assistant Superintendents",
+      "Maintenance Planners"
+    ],
+    "successCriteria": [
+      "Support for all common recurrence patterns (daily, weekly, monthly, etc.)",
+      "Ability to specify exact days of week for weekly tasks",
+      "Seasonal scheduling with start/end dates",
+      "Exception handling for holidays and events",
+      "Weather-dependent task scheduling",
+      "Preview of generated schedule before commitment"
+    ],
+    "assumptions": [
+      "Calendar system is available",
+      "Weather data integration exists",
+      "Course events calendar is accessible"
+    ],
+    "dependencies": [
+      "Task definitions",
+      "Calendar system",
+      "Weather service integration",
+      "Course events system"
+    ],
+    "outOfScope": [
+      "Automatic rescheduling of missed tasks",
+      "AI-powered schedule optimization",
+      "Integration with third-party calendar apps"
+    ],
+    "risks": [
+      "Complex recurrence rules may be difficult for users to configure",
+      "Weather-dependent scheduling may create unpredictable workload",
+      "Seasonal transitions may cause confusion"
+    ]
+  },
+  "owner": "Product Team",
+  "metadata": {
+    "createdAt": "2025-11-04T23:55:48.699Z",
+    "updatedAt": "2025-11-05T00:10:03.851Z",
+    "createdBy": "claude-code",
+    "tags": [
+      "labor",
+      "scheduling",
+      "recurrence",
+      "automation"
+    ]
+  }
+}

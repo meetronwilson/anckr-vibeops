@@ -1,0 +1,64 @@
+{
+  "id": "FEAT-0062",
+  "name": "Worker Schedule Management",
+  "description": "Advanced worker schedule management with conflict detection and availability tracking",
+  "moduleId": "MOD-0012",
+  "priority": "critical",
+  "status": "draft",
+  "issues": [],
+  "prd": {
+    "problem": "Creating crew schedules that account for worker availability, skills, PTO, and task requirements is time-consuming and prone to errors. Workers often don't know their schedule until the last minute, causing confusion and no-shows.",
+    "solution": "Build a comprehensive scheduling system that allows superintendents to create weekly/monthly schedules, assign workers to shifts, detect conflicts (PTO, double-booking), match skills to tasks, and publish schedules for workers to view. Include worker availability input and shift swap requests.",
+    "targetUsers": [
+      "Golf Course Superintendents",
+      "Crew Leaders",
+      "Workers/Crew Members"
+    ],
+    "successCriteria": [
+      "Visual schedule builder with drag-and-drop",
+      "Automatic conflict detection (PTO, skills, availability)",
+      "Workers can view their schedule in advance",
+      "Workers can input availability preferences",
+      "Shift swap request and approval workflow",
+      "Schedule templates for recurring patterns",
+      "Notifications when schedule is published or changed",
+      "Mobile access to schedule",
+      "Integration with task assignments"
+    ],
+    "assumptions": [
+      "Shift patterns are relatively consistent",
+      "Workers have mobile access",
+      "PTO system is integrated"
+    ],
+    "dependencies": [
+      "Worker profiles",
+      "PTO management",
+      "Skills tracking",
+      "Task assignments",
+      "Notification system"
+    ],
+    "outOfScope": [
+      "Automated schedule generation/AI optimization",
+      "Time clock integration",
+      "Labor law compliance checking"
+    ],
+    "risks": [
+      "Last-minute schedule changes may cause issues",
+      "Shift swap abuse",
+      "Ensuring adequate coverage",
+      "Workers may not update availability"
+    ]
+  },
+  "owner": "Product Team",
+  "metadata": {
+    "createdAt": "2025-11-04T23:55:50.235Z",
+    "updatedAt": "2025-11-05T00:10:04.229Z",
+    "createdBy": "claude-code",
+    "tags": [
+      "labor",
+      "scheduling",
+      "shifts",
+      "workforce-management"
+    ]
+  }
+}

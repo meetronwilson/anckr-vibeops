@@ -1,0 +1,64 @@
+{
+  "id": "FEAT-0059",
+  "name": "Compensation & Salary Management",
+  "description": "Compensation and salary management with pay rate tracking and history",
+  "moduleId": "MOD-0012",
+  "priority": "medium",
+  "status": "draft",
+  "issues": [],
+  "prd": {
+    "problem": "Tracking worker compensation, salary changes, raises, and pay history is typically managed in separate systems or spreadsheets, making it difficult to maintain accurate records, plan budgets, and ensure pay equity.",
+    "solution": "Create a compensation management module that tracks current pay rates (hourly or salary), maintains complete salary history with effective dates and reasons for changes, supports pay grade structures, and provides reporting for budget planning and compliance.",
+    "targetUsers": [
+      "Golf Course Superintendents",
+      "HR Managers",
+      "Finance Team",
+      "Course Owners/GMs"
+    ],
+    "successCriteria": [
+      "Current compensation clearly displayed per worker",
+      "Complete salary history with effective dates",
+      "Support for both hourly and salaried workers",
+      "Pay grade/level structure implementation",
+      "Raise and bonus tracking with approval workflow",
+      "Budget impact reporting",
+      "Compensation equity analysis tools",
+      "Export for payroll system integration"
+    ],
+    "assumptions": [
+      "Payroll is processed in external system",
+      "Pay grade structure exists or can be defined",
+      "Authorization workflow for raises is documented"
+    ],
+    "dependencies": [
+      "Worker profiles",
+      "User permissions system",
+      "Audit logging",
+      "Reporting infrastructure"
+    ],
+    "outOfScope": [
+      "Actual payroll processing",
+      "Tax calculations",
+      "Benefits administration",
+      "Direct deposit management"
+    ],
+    "risks": [
+      "Highly sensitive data requires strict access controls",
+      "Audit trail must be immutable for compliance",
+      "Integration with payroll system may be complex"
+    ]
+  },
+  "owner": "Product Team",
+  "metadata": {
+    "createdAt": "2025-11-04T23:55:49.452Z",
+    "updatedAt": "2025-11-05T00:10:04.040Z",
+    "createdBy": "claude-code",
+    "tags": [
+      "labor",
+      "compensation",
+      "salary",
+      "hr",
+      "payroll"
+    ]
+  }
+}
